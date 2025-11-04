@@ -30,4 +30,9 @@ func main() {
 			fmt.Println(" Infinite Loop")
 		}
 	*/
+
+	// range
+	for i := range 3 {
+		fmt.Println(" Range Iteration:", i)
+	}
 }
