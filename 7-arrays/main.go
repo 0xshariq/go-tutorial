@@ -26,6 +26,9 @@ func main() {
 	matrix[0][1] = 2     // Assign value to the second element
 	matrix[1][2] = 3     // Assign value to the third element
 
+	// Declare and initialize a multidimensional array
+	// matrix := [2][3]int{{1,2,3}, {4,5,6}}
+
 	// Print elements of the multidimensional array
 	for i := range len(matrix) {
 		for j := range len(matrix[i]) {
