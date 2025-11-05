@@ -20,3 +20,4 @@ func main() {
 	wg.Wait()
 	fmt.Println("all tasks done")
 }
+// Go routine -> lightweight thread managed by the Go runtime
